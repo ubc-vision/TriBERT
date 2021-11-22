@@ -2,6 +2,10 @@
 
 This repository contains the code for the NeurIPS 2021 paper titled ["TriBERT: Full-body Human-centric Audio-visual Representation Learning for Visual Sound Separation"](https://arxiv.org/pdf/2110.13412.pdf).
 
+# Data pre-processing:
+
+Please download [MUSIC21](https://github.com/roudimit/MUSIC_dataset). 
+
 # Pre-trained model
 
 Please download our pre-trained model from [Google Drive](https://drive.google.com/file/d/1cOIEUzcp7tKO1C6OyXwso2Rrm0wZHuu2/view?usp=sharing).
