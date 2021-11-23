@@ -17,7 +17,7 @@ After downloading the dataset, please consider following steps as data pre-proce
 Please download our pre-trained model from [Google Drive](https://drive.google.com/file/d/1cOIEUzcp7tKO1C6OyXwso2Rrm0wZHuu2/view?usp=sharing). To train from scratch please pre-process the data first and then run:
 
 ```
-python train_tribert.py
+python train_trimodal.py
 
 ```
 # Acknowledgment
