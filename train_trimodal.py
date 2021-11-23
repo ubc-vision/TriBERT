@@ -452,14 +452,14 @@ def main():
     # Required parameters
     parser.add_argument(
         "--train_file",
-        default="/ubc/cs/research/shield/datasets/MUSIC21_dataset/preprocessed_data/music21_bert_features/music21_train.csv",
+        default="./data/music21_train.csv",
         type=str,
         # required=True,
         help="The input train corpus.",
     )
     parser.add_argument(
         "--validation_file",
-        default="/ubc/cs/research/shield/datasets/MUSIC21_dataset/preprocessed_data/music21_bert_features/music21_val.csv",
+        default="./data/music21_val.csv",
         type=str,
         # required=True,
         help="The input train corpus.",
