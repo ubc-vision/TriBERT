@@ -4,7 +4,7 @@ This repository contains the code for the NeurIPS 2021 paper titled ["TriBERT: F
 
 # Data pre-processing:
 
-Please download [MUSIC21](https://github.com/roudimit/MUSIC_dataset). we found 314 videos are missing. Moreover, the train/val/test split was unavailable. Therefore, we used an 80/20 train/test split which is given.
+Please download [MUSIC21](https://github.com/roudimit/MUSIC_dataset). we found 314 videos are missing. Moreover, the train/val/test split was unavailable. Therefore, we used a random 80/20 train/test split which is given in [data](https://github.com/ubc-vision/TriBERT/tree/master/data).
 
 # Pre-trained model
 
