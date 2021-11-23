@@ -14,8 +14,12 @@ After downloading the dataset, please consider following steps as data pre-proce
 
 # Pre-trained model
 
-Please download our pre-trained model from [Google Drive](https://drive.google.com/file/d/1cOIEUzcp7tKO1C6OyXwso2Rrm0wZHuu2/view?usp=sharing).
+Please download our pre-trained model from [Google Drive](https://drive.google.com/file/d/1cOIEUzcp7tKO1C6OyXwso2Rrm0wZHuu2/view?usp=sharing). To train from scratch please pre-process the data first and then run:
 
+```
+python train_tribert.py
+
+```
 # Acknowledgment
 
 This repository is developed on top of [ViLBERT](https://github.com/jiasenlu/vilbert_beta) and [Sound-of-Pixels](https://github.com/hangzhaomit/Sound-of-Pixels). Please also refer to the original License of these projects.
