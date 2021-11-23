@@ -10,7 +10,7 @@ After downloading the dataset, please consider following steps as data pre-proce
 
 1. Following [Sound-of-Pixels](https://github.com/hangzhaomit/Sound-of-Pixels) we extracted video frames at 8fps and waveforms at 11025Hz from videos. We considered these frames and waveforms as our visual and audio input for TriBERT model.
 2. Setup [AlphaPose toolbox](https://github.com/MVIG-SJTU/AlphaPose) to detect 26 keypoints for body joints and 21 keypoints for each hand.
-3. 
+3. Re-train [ST-GCN network](https://github.com/yysijie/st-gcn) with the keypoints detected using AlphaPose and extract body joint features of size 256 × 68. These features will be considered as pose embedding to pose stream of TriBERT model. 
 
 # Pre-trained model
 
