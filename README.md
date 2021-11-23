@@ -6,9 +6,11 @@ This repository contains the code for the NeurIPS 2021 paper titled ["TriBERT: F
 
 Please download [MUSIC21](https://github.com/roudimit/MUSIC_dataset). we found 314 videos are missing. Moreover, the train/val/test split was unavailable. Therefore, we used a random 80/20 train/test split which is given in [data](https://github.com/ubc-vision/TriBERT/tree/master/data). 
 
-After downloading the dataset, we did following steps as data pre-processing.
+After downloading the dataset, please consider following steps as data pre-processing.
 
-1.
+1. Following [Sound-of-Pixels](https://github.com/hangzhaomit/Sound-of-Pixels) we extracted video frames at 8fps and waveforms at 11025Hz from videos. We considered these frames and waveforms as our visual and audio input for TriBERT model.
+2. Setup [AlphaPose toolbox](https://github.com/MVIG-SJTU/AlphaPose) to detect 26 keypoints for body joints and 21 keypoints for each hand.
+3. 
 
 # Pre-trained model
 
