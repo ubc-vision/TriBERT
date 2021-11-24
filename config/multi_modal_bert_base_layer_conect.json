@@ -64,7 +64,7 @@
   "lr_synthesizer": 1e-3,
   "num_epoch": 100,
   "disp_iter": 20,
-  "num_vis": 10,
+  "num_vis": 0,
   "num_val": 256,
   "imgSize": 224,
   "stft_frame": 1022,
