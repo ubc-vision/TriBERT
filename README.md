@@ -20,6 +20,14 @@ Please download our pre-trained model from [Google Drive](https://drive.google.c
 python train_trimodal.py
 
 ```
+
+# Multi-modal Retrieval
+
+The code used for our multi-modal retrieval experiments are in the `retrieval` directory. We conduct retrieval on TriBERT embeddings as well as baseline embeddings. The networks used for these tasks are located in `tribert_retrieval_networks.py` and `orig_retrieval_networks.py`, respectively. 
+
+To train a retrieval network, use `train_retrieval_networks.py`. To evaluate the performance of a specific type of retrieval between TriBERT embeddings and baseline embeddings, use `train_retrieval_networks.py`.
+
+
 # Acknowledgment
 
 This repository is developed on top of [ViLBERT](https://github.com/jiasenlu/vilbert_beta) and [Sound-of-Pixels](https://github.com/hangzhaomit/Sound-of-Pixels). Please also refer to the original License of these projects.
