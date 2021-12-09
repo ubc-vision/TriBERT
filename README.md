@@ -23,9 +23,9 @@ python train_trimodal.py
 
 # Multi-modal Retrieval
 
-The code used for our multi-modal retrieval experiments are in the `retrieval` directory. We conduct retrieval on TriBERT embeddings as well as baseline embeddings. The networks used for these tasks are located in `tribert_retrieval_networks.py` and `orig_retrieval_networks.py`, respectively. 
+The code used for our multi-modal retrieval experiments are in the `retrieval` directory. We conduct retrieval on TriBERT embeddings as well as baseline (before passing through TriBERT) embeddings. The networks used for these tasks are located in `tribert_retrieval_networks.py` and `orig_retrieval_networks.py`, respectively. 
 
-To train a retrieval network, use `train_retrieval_networks.py`. To evaluate the performance of a specific type of retrieval between TriBERT embeddings and baseline embeddings, use `train_retrieval_networks.py`.
+To train a retrieval network, use `train_retrieval_networks.py`. To evaluate the performance of a specific type of retrieval between TriBERT embeddings and baseline embeddings, use `train_retrieval_networks.py`. 
 
 
 # Acknowledgment
